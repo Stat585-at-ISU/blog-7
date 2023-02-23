@@ -3,9 +3,9 @@
 <!-- badges: start -->
 
 [![Frontmatter
-check](../../workflows/check-yaml.yaml/badge.svg)](../../workflows/check-yaml.yaml)
+check](../../actions/workflows/check-yaml.yaml/badge.svg)](../../actions/workflows/check-yaml.yaml)
 [![Render
-rmarkdown](../../workflows/render-rmarkdown.yaml/badge.svg)](../../workflows/render-rmarkdown.yaml)
+rmarkdown](../../actions/workflows/render-rmarkdown.yaml/badge.svg)](../../actions/workflows/render-rmarkdown.yaml)
 <!-- badges: end -->
 
 In Blog 5 you had the first exposure to Github Actions. We just checked
