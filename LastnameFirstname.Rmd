@@ -12,7 +12,7 @@ root: ../../
 
 The `DESCRIPTION` file of a package contains the package's meta information. Most of the fields in this file are quite straight forward: author, version number, and a short package description. When you call `library(help="<package name>")` for  package `<package name>` you can see the contents of the `DESCRIPTION` file for that package (and some parts of the `NAMESPACE` file).
 
-Read through the chapter on [licenses](https://r-pkgs.org/license.html) from Wickham's book on R packages. 
+Read through the chapter on [licenses](https://r-pkgs.org/license.html) from Hadley Wickham's book on R packages. 
 
 There are several important aspects to consider when choosing a license for your work. 
 Three of the main questions to answer are: 
