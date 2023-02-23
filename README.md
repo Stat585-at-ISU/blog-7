@@ -1,18 +1,49 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+<!-- badges: start -->
 
-# Instructions
+[![Frontmatter
+check](../../workflows/check-yaml.yaml/badge.svg)](../../workflows/check-yaml.yaml)
+[![Render
+rmarkdown](../../workflows/render-rmarkdown.yaml/badge.svg)](../../workflows/render-rmarkdown.yaml)
+<!-- badges: end -->
 
-1.  Optional: Clone this repo to your local machine.
-2.  Change the name of the file LastnameFirstname.Rmd to your first and
-    last name.
-3.  Make sure to add the renamed .Rmd file back into the repo in case it
-    disappeared. **You can create a new file in a github repository by
-    clicking on the `Create new file` or `Upload files` button.**
-    ![](images/create-file.png)
-4.  Write your blog post in the Rmd file.
-5.  Upload your work to this repository.
+In Blog 5 you had the first exposure to Github Actions. We just checked
+frontmatter compliance (as we do for this round). You see that we have
+added a second action - here, we are converting the Rmarkdown document
+to a markdown file by running `render_rmarkdown` on Github. This action
+passes successfully for this document. We want to do something similar
+for blog \#4.
 
-Make sure that all of the github actions pass without an error message.
-You can check on that by selecting ‘Actions’ on the menu and ensure that
-the last item has a green checkmark.
+Now start reading …
+
+Read the vignette [Introduction to
+renv](https://rstudio.github.io/renv/articles/renv.html) for the `renv`
+R package by Kevin Ushey.
+
+Then do:
+
+1.  **Install the R package `renv` on your local machine.**
+
+2.  **In the project for blog 4, initialize the workflow used by the
+    `renv` package.**
+
+3.  **Add all dependencies to the environment (implicitly by installing
+    all the depepndencies or explicilty by listing dependencies in a
+    DESCRIPTION file).**
+
+4.  **Add the `renv` folder to your blog 4 repository, and push the
+    changes.**
+
+5.  **Is the github action working? Read any potential error messages in
+    the workflow and try to fix things. Make sure to check stackoverflow
+    for help, don’t forget our Discussion board!**
+
+Write a blog post addressing the following questions:
+
+1.  **What is the idea of the renv package?**
+
+2.  **In 50 to 100 words describe your experience working with `renv`.
+    What went well? What did not go so well?**
+
+Submit this blog post to your blog-6 repo.

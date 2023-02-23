@@ -1,0 +1,15 @@
+name: Frontmatter JSON Schema Validator
+on:
+  push
+
+jobs:
+  frontmatter-json-schema-validator:
+    name: Frontmatter JSON Schema Validator
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Frontmatter JSON Schema Validator
+        uses: mheap/frontmatter-json-schema-action@main
+        with:
+          paths: "*.Rmd"
+          schema_path: .github/schema.json
