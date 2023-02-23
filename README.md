@@ -3,7 +3,7 @@
 <!-- badges: start -->
 
 [![Frontmatter
-check](../../workflows/check-yaml.yaml/badge.svg)](../../workflows/check-yaml.yaml)
+check](../../actions/workflows/check-yaml.yaml/badge.svg)](../../workflows/check-yaml.yaml)
 [![Render
 rmarkdown](../../workflows/render-rmarkdown.yaml/badge.svg)](../../workflows/render-rmarkdown.yaml)
 <!-- badges: end -->
