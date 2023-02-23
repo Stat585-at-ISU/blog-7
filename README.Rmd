@@ -9,7 +9,6 @@ output: github_document
   <!-- badges: end -->
   
   
-https://github.com/Stat585-at-ISU/Blog-5/actions/workflows/check-yaml.yaml/badge.svg  
 
 In Blog 5 you had the first exposure to Github Actions. 
 We just checked frontmatter compliance (as we do for this round).
