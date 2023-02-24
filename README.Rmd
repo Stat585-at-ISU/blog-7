@@ -17,7 +17,6 @@ The `DESCRIPTION` file of a package contains the package's meta information. Mos
 
 Read through Colin Fay's (short) book on [Licensing R](https://thinkr-open.github.io/licensing-r/)
 
-
 Write a blog post addressing the following questions: 
 
 ### Under what license does R operate? What is the license for ggplot2?
